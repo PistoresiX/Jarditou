@@ -1,0 +1,117 @@
+
+
+img { 
+    max-width: 100%;
+    height: auto;
+}
+
+.tete {
+    display: flex;
+    justify-content: space-between;
+    align-content: flex-start;
+}
+
+.logo {
+    height: 50px;
+    position: relative;
+    top: 30px;
+
+}
+
+.titre {
+    font-size: 200% ;
+}
+
+.lien {
+    display: flex;
+    background-color: black;
+    padding: 1px;
+    
+}
+
+.clik {
+    display: flex ;
+    justify-content: flex-start ;
+    
+    
+    
+}
+
+li {
+    margin: 6px;
+    color: white;
+    list-style-type: none;
+    text-decoration: underline;
+}
+
+.promo {
+    margin-top: 5px;
+    width: 100%;
+     height: auto;
+}
+
+.corp {
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+}
+
+.text {
+
+    line-height: 3em;
+}
+
+.devis {
+    margin-bottom: 100px;
+}
+
+.control {
+    background-color: rgb(189, 181, 181) ;
+    max-width: 100%;
+    max-height: auto;
+    padding: 150px;
+   
+        
+}
+
+
+#boite {
+        background-color: rgb(189, 181, 181);
+        position: relative;
+        bottom: 150px;
+        right: 150px;
+        
+}
+
+.coeur {
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+hr.separe {
+    margin: 0 !important;
+    margin: -7px 0; 
+    padding: 0;
+    height: 1px; 
+    color: rgb(189, 181, 181); 
+    background-color: rgb(189, 181, 181);
+    display: block;
+    border: 0;
+    }
+
+    @media screen and ( max-width: 768px)
+{
+        .control { display: none;
+             }
+
+        .clik {
+             display: flex;
+             flex-direction: column;}
+
+        .marge  {
+            font-size: 1.3rem;}
+             
+        }
+
+     
